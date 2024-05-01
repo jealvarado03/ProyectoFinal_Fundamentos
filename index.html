@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <p class="logo">Logo página</p>
+      <icon class="icon">Facebook</icon>
+      <icon class="icon">Instagram</icon>
+      <icon class="icon">Twitter</icon>
+      <button>NOSOTROS</button>
+    </header>
+    <main id="mainContent" class="main-container">
+      <article class="card a1">
+        <p>Bienvenido a Alvarado Bienes Raices & Asociados</p>
+        <p>
+          Aquí podras registrar tu inmbueble para ser puesto a la venta, sigue
+          las instrucciones del formulario que esta a continuación
+        </p>
+      </article>
+      <article class="card a2">
+        <form class="registro" action="HTML/productos.html" method="get">
+          <label> <h2>REGISTRO</h2></label>
+          <label for="nombre">Nombre producto:</label>
+          <input type="text" id="nombre" name="nombre" required /><br />
+
+          <label for="categoria">Categoria:</label>
+          <select>
+            <option>Casa</option>
+            <option>Apartaestudio</option>
+            <option>Finca</option>
+          </select>
+          <br />
+
+          <label for="imagen">Imagen:</label>
+          <button>Elegir imagen</button>
+          <br />
+          <label for="codigo">Codigo:</label>
+          <input type="number" id="codigo" name="nombre" required />
+          <br />
+          <label for="precio">Precio:</label>
+          <input type="number" id="precio" name="precio" required />
+          <br />
+          <label for="ubicacion">Ubicacion:</label>
+          <input type="ubicacion" id="ubicacion" name="ubicacion" required />
+          <br />
+          <label for="area">Area:</label>
+          <input type="area" id="area" name="area" required />
+          <br />
+          <label for="detalles">Detalles:</label>
+          <input type="detalles" id="detalles" name="detalles" required />
+          <button type="submit">Registrar</button>
+        </form>
+      </article>
+    </main>
+    <footer>© Alvarado Bienes Raices & Asociados S.A.S</footer>
+  </body>
+</html>
